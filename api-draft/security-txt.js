@@ -1,6 +1,6 @@
 import { URL } from 'url';
 import followRedirects from 'follow-redirects';
-import middleware from './_common/middleware.js';
+import middleware from '../api/_common/middleware.js';
 
 const { https } = followRedirects;
 

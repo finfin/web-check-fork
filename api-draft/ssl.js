@@ -1,5 +1,5 @@
 import tls from 'tls';
-import middleware from './_common/middleware.js';
+import middleware from '../api/_common/middleware.js';
 
 const sslHandler = async (urlString) => {
   try {

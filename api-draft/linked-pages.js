@@ -1,7 +1,7 @@
 import axios from 'axios';
 import cheerio from 'cheerio';
 import urlLib from 'url';
-import middleware from './_common/middleware.js';
+import middleware from '../api/_common/middleware.js';
 
 const linkedPagesHandler = async (url) => {
   const response = await axios.get(url);

@@ -1,6 +1,6 @@
 import dns from 'dns';
 import URL from 'url-parse';
-import middleware from './_common/middleware.js';
+import middleware from '../api/_common/middleware.js';
 
 // TODO: Fix.
 

@@ -1,5 +1,5 @@
 import net from 'net';
-import middleware from './_common/middleware.js';
+import middleware from '../api/_common/middleware.js';
 
 // A list of commonly used ports.
 const PORTS = [

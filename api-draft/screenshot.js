@@ -1,6 +1,6 @@
 import puppeteer from 'puppeteer-core';
 import chromium from 'chrome-aws-lambda';
-import middleware from './_common/middleware.js';
+import middleware from '../api/_common/middleware.js';
 
 const screenshotHandler = async (targetUrl) => {
 

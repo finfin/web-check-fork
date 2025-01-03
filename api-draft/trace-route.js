@@ -1,6 +1,6 @@
 import url from 'url';
 import traceroute from 'traceroute';
-import middleware from './_common/middleware.js';
+import middleware from '../api/_common/middleware.js';
 
 const traceRouteHandler = async (urlString, context) => {
   // Parse the URL and get the hostname

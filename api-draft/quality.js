@@ -1,5 +1,5 @@
 import axios from 'axios';
-import middleware from './_common/middleware.js';
+import middleware from '../api/_common/middleware.js';
 
 const qualityHandler = async (url, event, context) => {
   const apiKey = process.env.GOOGLE_CLOUD_API_KEY;

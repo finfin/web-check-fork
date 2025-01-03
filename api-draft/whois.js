@@ -1,7 +1,7 @@
 import net from 'net';
 import psl from 'psl';
 import axios from 'axios';
-import middleware from './_common/middleware.js';
+import middleware from '../api/_common/middleware.js';
 
 const getBaseDomain = (url) => {
   let protocol = '';

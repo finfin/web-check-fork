@@ -1,5 +1,5 @@
 import axios from 'axios';
-import middleware from './_common/middleware.js';
+import middleware from '../api/_common/middleware.js';
 
 const httpsSecHandler = async (url) => {
   const fullUrl = url.startsWith('http') ? url : `http://${url}`;

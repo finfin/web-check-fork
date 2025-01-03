@@ -1,5 +1,5 @@
 import axios from 'axios';
-import middleware from './_common/middleware.js';
+import middleware from '../api/_common/middleware.js';
 
 const MOZILLA_TLS_OBSERVATORY_API = 'https://tls-observatory.services.mozilla.com/api/v1';
 

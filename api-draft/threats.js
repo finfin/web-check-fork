@@ -1,6 +1,6 @@
 import axios from 'axios';
 import xml2js from 'xml2js';
-import middleware from './_common/middleware.js';
+import middleware from '../api/_common/middleware.js';
 
 const getGoogleSafeBrowsingResult = async (url) => {
   try {

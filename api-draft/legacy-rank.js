@@ -2,7 +2,7 @@ import axios from 'axios';
 import unzipper from 'unzipper';
 import csv from 'csv-parser';
 import fs from 'fs';
-import middleware from './_common/middleware.js';
+import middleware from '../api/_common/middleware.js';
 
 // Should also work with the following sources:
 // https://www.domcop.com/files/top/top10milliondomains.csv.zip

@@ -1,5 +1,5 @@
 import dns from 'dns/promises';
-import middleware from './_common/middleware.js';
+import middleware from '../api/_common/middleware.js';
 
 const txtRecordHandler = async (url, event, context) => {
   try {

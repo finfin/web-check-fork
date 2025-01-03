@@ -1,5 +1,5 @@
 import got from 'got';
-import middleware from './_common/middleware.js';
+import middleware from '../api/_common/middleware.js';
 
 const redirectsHandler = async (url) => {
   const redirects = [url];

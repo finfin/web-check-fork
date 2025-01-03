@@ -1,6 +1,6 @@
 import https from 'https';
 import { performance, PerformanceObserver } from 'perf_hooks';
-import middleware from './_common/middleware.js';
+import middleware from '../api/_common/middleware.js';
 
 const statusHandler = async (url) => {
   if (!url) {

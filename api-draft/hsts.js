@@ -1,5 +1,5 @@
 import https from 'https';
-import middleware from './_common/middleware.js';
+import middleware from '../api/_common/middleware.js';
 
 const hstsHandler = async (url, event, context) => {
   const errorResponse = (message, statusCode = 500) => {

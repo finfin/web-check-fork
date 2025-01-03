@@ -1,5 +1,5 @@
 import Wappalyzer from 'wappalyzer';
-import middleware from './_common/middleware.js';
+import middleware from '../api/_common/middleware.js';
 
 const techStackHandler = async (url) => {
   const options = {};

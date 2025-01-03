@@ -1,5 +1,5 @@
 import axios from 'axios';
-import middleware from './_common/middleware.js';
+import middleware from '../api/_common/middleware.js';
 
 const rankHandler = async (url) => { 
   const domain = url ? new URL(url).hostname : null;

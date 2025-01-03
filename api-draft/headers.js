@@ -1,5 +1,5 @@
 import axios from 'axios';
-import middleware from './_common/middleware.js';
+import middleware from '../api/_common/middleware.js';
 
 const headersHandler = async (url, event, context) => {
   try {
